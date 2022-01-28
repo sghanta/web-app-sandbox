@@ -1,0 +1,26 @@
+{
+  "name": "web-app-sandbox",
+  "version": "1.0.0",
+  "description": "Sample web app federated with Okta to test sign-on policies.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sghanta/Web-App-Sandbox.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sghanta/Web-App-Sandbox/issues"
+  },
+  "homepage": "https://github.com/sghanta/Web-App-Sandbox#readme",
+  "dependencies": {
+    "@okta/oidc-middleware": "^4.5.1",
+    "express": "^4.17.2",
+    "express-session": "^1.17.2",
+    "mustache-express": "^1.3.2"
+  }
+}
